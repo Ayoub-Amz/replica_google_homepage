@@ -1,0 +1,158 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+
+
+/** header **/
+header {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	flex-wrap: wrap;
+	align-content: center;
+}
+.top_nav{
+	margin: 20px;
+}
+.top_nav div{
+	display: inline;
+	padding-left: 10px;
+}
+.top_nav a{
+	color: #000;
+	text-decoration: none;
+	font-size: 80%;
+}
+.top_nav a:hover{
+	text-decoration: underline;
+}
+.sign_in{
+	border:none;
+	border-radius: 3px;
+	color:#FFF;
+	width:5em;
+	padding: 8px;
+	background-color: #4583ed;
+	font-weight: bold;
+}
+.menu{
+	width: 3em;
+	color:#FFF;
+	background-color: #CCC;
+	border: none;
+	cursor: pointer;
+}
+
+
+/** center **/
+
+.container{
+	margin-top: 5%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.searchbar{
+	position: relative;
+}
+#s_icon{
+	width: 25px;
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+}
+#v_icon{
+	width: 25px;
+	position: absolute;
+	bottom: 11px;
+	right: 10px;
+}
+input[type="search"]{
+	width:500px;
+	margin-top: 25px;
+	padding: 15px 40px;
+	border : 1px solid rgb(239, 239, 239);
+	border-radius: 20px;
+}
+input[type="search"]:hover{
+	border:none;
+	box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);	
+}
+input[type="search"]:focus-within{
+	outline: none;
+}
+.container2{
+	display: flex;
+	justify-content: center;
+	margin: 20px;
+}
+.offers p{
+	text-align: center;
+}
+.offers p a{
+	text-decoration: none;
+	color:#4285F4;
+}
+.search_button{
+  border:none;
+  border-radius: 4px;
+  color:rgba(0,0,0,0.5);
+  background-color: #F2F2F2;
+  width: 120px ;
+  height: 40px;
+  padding: 5px;
+  margin: 5px;
+}
+/** foooter **/
+footer{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	position: fixed;
+	bottom: 0px;
+}
+.country, .nevigation{
+
+}
+.country p{
+	background-color:#F2F2F2;
+	color:#CCC;
+	width: 100%;
+	padding: 10px;
+	border-top: 1px solid rgba(0,0,0,0.2);
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.country p a{
+	color:#CCC;
+	text-decoration: none;
+}
+.navigation{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	background-color:#F2F2F2;
+	flex-wrap: wrap-reverse;
+	align-content: center;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.left_nav div, .right_nav div{
+	display: inline-flex;
+	padding: : 20px;
+	margin: 10px;
+}
+.navigation a{
+	text-decoration: none;
+	color:rgba(0,0,0,0.5);
+	font-size: 14px;
+	font-weight: 400;
+}
+.navigation a:hover{
+	text-decoration: underline;
+}
+
+
